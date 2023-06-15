@@ -101,7 +101,7 @@ class _SignUpScreenState extends State<SignUpScreen>
         Fluttertoast.showToast(msg: "Account has been created successfully");
 
         print("Before navigating to AdditionalUserInfoScreen");
-        Navigator.pushReplacement(context, MaterialPageRoute(builder: (c) => const AdditionalUserInfoScreen()));
+        await Navigator.pushReplacement(context, MaterialPageRoute(builder: (c) => AdditionalUserInfoScreen()));
         print("After navigating to AdditionalUserInfoScreen");
 
       } else {
@@ -159,55 +159,85 @@ class _SignUpScreenState extends State<SignUpScreen>
         context: context,
         builder: (context){
           return AlertDialog(
-              title: Text('Please choose an option'),
-            content: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                InkWell(
-                  onTap: (){
-                    _getFromCamera();
-                  },
-                  child: Row(
-                    children: [
-                      Padding(
-                        padding: EdgeInsets.all(4.0),
-                        child: Icon(
-                          Icons.camera,
-                          color: primaryColor,
-                        ),
-                      ),
-                      Text(
-                        'Camera',
-                        style: TextStyle(
-                          color: primaryColor
-                        ),
-                      )
-                    ],
+            backgroundColor: Colors.transparent,
+            content: Container(
+              decoration: BoxDecoration(
+                  image: const DecorationImage(
+                      image: AssetImage('images/add_info_bg.jpg'),
+                      fit: BoxFit.fill
                   ),
-                ),
-                InkWell(
-                  onTap: (){
-                    _getFromGallery();
-                  },
-                  child: Row(
-                    children: [
-                      Padding(
-                        padding: EdgeInsets.all(4.0),
-                        child: Icon(
-                          Icons.image,
-                          color: primaryColor,
+                  color: Colors.grey.shade900,
+                  borderRadius: BorderRadius.circular(15),
+                  boxShadow: const [
+                    BoxShadow(
+                      color: Colors.black,
+                      spreadRadius: 2,
+                      blurRadius: 15,
+                      offset: Offset(5, 5),
+                    ),
+                    BoxShadow(
+                      color: Colors.black,
+                      spreadRadius: 2,
+                      blurRadius: 15,
+                      offset: Offset(-5, -5),
+                    )
+                  ]
+              ),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  InkWell(
+                    onTap: (){
+                      _getFromCamera();
+                    },
+                    child: Row(
+                      children: [
+                        Padding(
+                          padding: EdgeInsets.all(4.0),
+                          child: Icon(
+                            Icons.camera,
+                            color: secColor,
+                            size: 50,
+                          ),
                         ),
-                      ),
-                      Text(
-                        'Gallery',
-                        style: TextStyle(
-                            color: primaryColor
-                        ),
-                      )
-                    ],
+                        Text(
+                          'Camera',
+                          style: TextStyle(
+                            color: textColor,
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold
+                          ),
+                        )
+                      ],
+                    ),
                   ),
-                )
-              ],
+                  InkWell(
+                    onTap: (){
+                      _getFromGallery();
+                    },
+                    child: Row(
+                      children: [
+                        Padding(
+                          padding: EdgeInsets.all(4.0),
+                          child: Icon(
+                            Icons.image,
+                            color: secColor,
+                            size: 50,
+                          ),
+                        ),
+                        Text(
+                          'Gallery',
+                          style: TextStyle(
+                            color: textColor,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 20
+                          ),
+                        )
+                      ],
+                    ),
+                  )
+                ],
+              ),
             ),
           );
         },

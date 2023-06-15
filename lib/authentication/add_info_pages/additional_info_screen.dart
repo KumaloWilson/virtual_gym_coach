@@ -77,13 +77,22 @@ class _AdditionalUserInfoScreenState extends State<AdditionalUserInfoScreen> {
 
                       if(onLastPage == true){
 
-                        SharedPreferences prefs = await SharedPreferences.getInstance();
-                        prefs.setBool('addInfor', true);
+                        if(selectedGoal == null){
+                          Fluttertoast.showToast(msg: 'Please Select Your Goal');
+                        }
+
+                        else if(userGender == null || userAge == null || userHeight == null){
+                          Fluttertoast.showToast(msg: 'Please Slide back to see missing details you did not provide');
+                        }
+                        else{
+                          SharedPreferences prefs = await SharedPreferences.getInstance();
+                          prefs.setBool('addInfor', true);
 
 
-                        // ignore: use_build_context_synchronously
-                        Navigator.pushReplacement(
-                            context, MaterialPageRoute(builder: (c) => const MySplashScreen()));
+                          // ignore: use_build_context_synchronously
+                          Navigator.pushReplacement(
+                              context, MaterialPageRoute(builder: (c) => const MySplashScreen()));
+                        }
                       }
                       else{
                         if(userGender == null && _controller.page == 0){
