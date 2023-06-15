@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:virtual_gym_coach/global/global.dart';
 
-String introText = "Welcome to arti-eyes, an app for people with low vision, or blind-ness. Arti-eyes uses your camera to find objects, read text and detect bank notes.";
-String nextTip = "Please swipe the screen to the left to go Next";
 
 class IntroPage3 extends StatelessWidget {
   const IntroPage3({Key? key}) : super(key: key);
@@ -13,50 +11,26 @@ class IntroPage3 extends StatelessWidget {
     return Container(
       decoration: const BoxDecoration(
         image: DecorationImage(
-            image: AssetImage('images/woman3.jpg'),
-            fit: BoxFit.fitWidth
+            image: AssetImage('images/onboarding3.jpg'),
+            fit: BoxFit.fitHeight
         ),
         color: Colors.black,
       ),
-      child: Stack(
-        children: [
-          Positioned(
-            top: MediaQuery.of(context).size.width*0.25,
-            left: 0,
-            right: 0,
-            child: Center(
-              child: Text(
-                "Set your Goals",
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                    fontSize: MediaQuery.of(context).size.width*0.07,
-                    color: textColor,
-                    fontWeight: FontWeight.bold
-
-                ),
-              ),
-            ),
+      child: Padding(
+        padding: EdgeInsets.only(
+          top: MediaQuery.of(context).size.height * 0.65,
+          left: MediaQuery.of(context).size.width * 0.07,
+          right: MediaQuery.of(context).size.width * 0.07,
+        ),
+        child: Text(
+          "Achieve a well-rounded approach to fitness with nutrition guidance and meal planning from our virtual gym coach. They'll provide expert advice, delicious recipes, and nutritional tips to fuel your body for optimal performance.",
+          style: TextStyle(
+              color: textColor,
+              fontSize: MediaQuery.of(context).size.width * 0.045,
+              fontWeight: FontWeight.bold
           ),
-          Positioned(
-            bottom: MediaQuery.of(context).size.width*0.4,
-            left: 0,
-            right: 0,
-            child: Container(
-              padding: const EdgeInsets.all(20),
-              child: Center(
-                child: Text(
-                  introText,
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                      fontSize: MediaQuery.of(context).size.width*0.045,
-                      color: textColor,
-                      fontWeight: FontWeight.bold
-                  ),
-                ),
-              ),
-            ),
-          ),
-        ],
+          textAlign: TextAlign.center,
+        ),
       ),
     );
   }
