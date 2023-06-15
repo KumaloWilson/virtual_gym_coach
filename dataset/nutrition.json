@@ -1,0 +1,816 @@
+[
+  {
+    "name": "Tofu Stir-Fry",
+    "goal": "getFlexible",
+    "calories": 250,
+    "protein": 18.0,
+    "carbohydrates": 20,
+    "fat": 12,
+    "fiber": 6,
+    "vitamins": [
+      { "name": "Vitamin C", "quantity": 12 },
+      { "name": "Vitamin K", "quantity": 48 },
+      { "name": "Vitamin E", "quantity": 2.2 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 350 },
+      { "name": "Iron", "quantity": 4 },
+      { "name": "Potassium", "quantity": 500 }
+    ],
+    "servingSize": "1 serving",
+    "image": "images/tofu stir-fry.png",
+    "description": "A delicious stir-fry dish made with tofu, mixed vegetables, and a flavorful sauce. It's a healthy and protein-packed option for a balanced meal."
+  },
+  {
+    "name": "Salad with Grilled Shrimp",
+    "goal": "loseWeight",
+    "calories": 180,
+    "protein": 20.0,
+    "carbohydrates": 10,
+    "fat": 6,
+    "fiber": 4,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 140 },
+      { "name": "Vitamin C", "quantity": 18 },
+      { "name": "Vitamin K", "quantity": 42 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 100 },
+      { "name": "Iron", "quantity": 2 },
+      { "name": "Selenium", "quantity": 27 }
+    ],
+    "servingSize": "1 salad",
+    "image": "images/Salad with Grilled Shrimp.png",
+    "description": "A refreshing salad featuring grilled shrimp, mixed greens, and a tangy dressing. It's a light and satisfying option for those looking to shed some pounds."
+  },
+  {
+    "name": "Sweet Potato and Black Bean Chili",
+    "goal": "getFit",
+    "calories": 320,
+    "protein": 12.0,
+    "carbohydrates": 60,
+    "fat": 4,
+    "fiber": 14,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 180 },
+      { "name": "Vitamin C", "quantity": 22 },
+      { "name": "Vitamin B6", "quantity": 0.6 }
+    ],
+    "minerals": [
+      { "name": "Potassium", "quantity": 1080 },
+      { "name": "Magnesium", "quantity": 90 },
+      { "name": "Iron", "quantity": 4 }
+    ],
+    "servingSize": "1 cup",
+    "image": "images/Sweet Potato and Black Bean Chili.png",
+    "description": "A hearty and nutritious chili made with sweet potatoes, black beans, and a blend of spices. It's a high-fiber and protein-rich option to support your fitness goals."
+  },
+  {
+    "name": "Quinoa Salad",
+    "goal": "getFlexible",
+    "calories": 220,
+    "protein": 8.0,
+    "carbohydrates": 35,
+    "fat": 6,
+    "fiber": 6,
+    "vitamins": [
+      { "name": "Vitamin C", "quantity": 20 },
+      { "name": "Vitamin E", "quantity": 2 },
+      { "name": "Folate", "quantity": 80 }
+    ],
+    "minerals": [
+      { "name": "Magnesium", "quantity": 120 },
+      { "name": "Phosphorus", "quantity": 250 },
+      { "name": "Zinc", "quantity": 2 }
+    ],
+    "servingSize": "1 cup",
+    "image": "images/Quinoa Salad.png",
+    "description": "A refreshing salad made with quinoa, fresh vegetables, and a zesty dressing. It's a versatile and nutritious option for those seeking dietary flexibility."
+  },
+  {
+    "name": "Protein Pancakes",
+    "goal": "loseWeight",
+    "calories": 220,
+    "protein": 20.0,
+    "carbohydrates": 25,
+    "fat": 5,
+    "fiber": 3,
+    "vitamins": [
+      { "name": "Vitamin B12", "quantity": 1.2 },
+      { "name": "Vitamin D", "quantity": 2 },
+      { "name": "Vitamin K", "quantity": 12 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 150 },
+      { "name": "Iron", "quantity": 4 },
+      { "name": "Potassium", "quantity": 200 }
+    ],
+    "servingSize": "2 pancakes",
+    "image": "images/Protein Pancakes.png",
+    "description": "Fluffy and protein-packed pancakes made with whole grain flour and a hint of sweetness. They are a guilt-free option for a satisfying breakfast or snack while trying to lose weight."
+  },
+  {
+    "name": "Grilled Salmon with Asparagus",
+    "goal": "getFit",
+    "calories": 300,
+    "protein": 25.0,
+    "carbohydrates": 10,
+    "fat": 18,
+    "fiber": 5,
+    "vitamins": [
+      { "name": "Vitamin D", "quantity": 12 },
+      { "name": "Vitamin K", "quantity": 60 },
+      { "name": "Vitamin B12", "quantity": 4 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 120 },
+      { "name": "Iron", "quantity": 2 },
+      { "name": "Selenium", "quantity": 30 }
+    ],
+    "servingSize": "1 serving",
+    "image": "images/Grilled Salmon with Asparagus.png",
+    "description": "A perfectly grilled salmon fillet served with roasted asparagus. This meal is rich in omega-3 fatty acids and provides essential nutrients for a healthy and fit lifestyle."
+  },
+  {
+    "name": "Mediterranean Chickpea Salad",
+    "goal": "getFlexible",
+    "calories": 220,
+    "protein": 10.0,
+    "carbohydrates": 30,
+    "fat": 8,
+    "fiber": 8,
+    "vitamins": [
+      { "name": "Vitamin C", "quantity": 30 },
+      { "name": "Vitamin E", "quantity": 3 },
+      { "name": "Folate", "quantity": 60 }
+    ],
+    "minerals": [
+      { "name": "Magnesium", "quantity": 100 },
+      { "name": "Phosphorus", "quantity": 180 },
+      { "name": "Zinc", "quantity": 1.5 }
+    ],
+    "servingSize": "1 cup",
+    "image": "images/Mediterranean Chickpea Salad.png",
+    "description": "A refreshing salad with chickpeas, fresh vegetables, olives, and feta cheese. This Mediterranean-inspired dish is packed with flavor and nutrients, making it a flexible choice for any meal."
+  },
+  {
+    "name": "Beef Stir-Fry with Broccoli",
+    "goal": "loseWeight",
+    "calories": 280,
+    "protein": 30.0,
+    "carbohydrates": 15,
+    "fat": 12,
+    "fiber": 4,
+    "vitamins": [
+      { "name": "Vitamin C", "quantity": 25 },
+      { "name": "Vitamin K", "quantity": 35 },
+      { "name": "Vitamin B6", "quantity": 1.5 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 50 },
+      { "name": "Iron", "quantity": 4 },
+      { "name": "Potassium", "quantity": 500 }
+    ],
+    "servingSize": "1 serving",
+    "image": "images/Beef Stir-Fry with Broccoli.png",
+    "description": "A delicious and lean beef stir-fry dish with tender beef slices and crisp broccoli. It's a low-calorie option that provides a good source of protein for those aiming to lose weight."
+  },
+  {
+    "name": "Vegetable Quinoa Soup",
+    "goal": "getFit",
+    "calories": 200,
+    "protein": 8.0,
+    "carbohydrates": 35,
+    "fat": 4,
+    "fiber": 10,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 120 },
+      { "name": "Vitamin C", "quantity": 15 },
+      { "name": "Vitamin B6", "quantity": 0.5 }
+    ],
+    "minerals": [
+      { "name": "Potassium", "quantity": 400 },
+      { "name": "Magnesium", "quantity": 80 },
+      { "name": "Iron", "quantity": 2 }
+    ],
+    "servingSize": "1 bowl",
+    "image": "images/Vegetable Quinoa Soup.png",
+    "description": "A hearty and nutritious soup made with quinoa, mixed vegetables, and flavorful herbs. This vegetable quinoa soup is a healthy and satisfying choice to support your fitness goals."
+  },
+  {
+    "name": "Greek Yogurt Parfait",
+    "goal": "getFlexible",
+    "calories": 180,
+    "protein": 15.0,
+    "carbohydrates": 25,
+    "fat": 3,
+    "fiber": 2,
+    "vitamins": [
+      { "name": "Vitamin C", "quantity": 8 },
+      { "name": "Vitamin E", "quantity": 1.5 },
+      { "name": "Calcium", "quantity": 200 }
+    ],
+    "minerals": [
+      { "name": "Iron", "quantity": 1 },
+      { "name": "Zinc", "quantity": 1 },
+      { "name": "Magnesium", "quantity": 40 }
+    ],
+    "servingSize": "1 serving",
+    "image": "images/Greek Yogurt Parfait.png",
+    "description": "A delightful parfait made with creamy Greek yogurt, fresh berries, and crunchy granola. This protein-rich and indulgent dessert is a flexible option for a guilt-free treat."
+  },
+  {
+    "name": "Turkey Wrap",
+    "goal": "loseWeight",
+    "calories": 280,
+    "protein": 25.0,
+    "carbohydrates": 30,
+    "fat": 8,
+    "fiber": 6,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 60 },
+      { "name": "Vitamin C", "quantity": 10 },
+      { "name": "Vitamin K", "quantity": 15 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 100 },
+      { "name": "Iron", "quantity": 2 },
+      { "name": "Potassium", "quantity": 300 }
+    ],
+    "servingSize": "1 wrap",
+    "image": "images/Turkey Wrap.png",
+    "description": "A delicious and nutritious turkey wrap filled with lean turkey slices, fresh vegetables, and a flavorful sauce. It's a satisfying option for a healthy and balanced meal while aiming to lose weight."
+  },
+  {
+    "name": "Vegetable Omelette",
+    "goal": "getFlexible",
+    "calories": 220,
+    "protein": 18.0,
+    "carbohydrates": 10,
+    "fat": 12,
+    "fiber": 4,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 80 },
+      { "name": "Vitamin C", "quantity": 20 },
+      { "name": "Vitamin B12", "quantity": 3 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 120 },
+      { "name": "Iron", "quantity": 3 },
+      { "name": "Selenium", "quantity": 25 }
+    ],
+    "servingSize": "1 omelette",
+    "image": "images/Vegetable Omelette.png",
+    "description": "A nutritious and flavorful vegetable omelette made with a mix of fresh vegetables and eggs. It's a versatile and flexible choice for a satisfying breakfast or brunch."
+  },
+  {
+    "name": "Quinoa-Stuffed Bell Peppers",
+    "goal": "getFit",
+    "calories": 320,
+    "protein": 14.0,
+    "carbohydrates": 50,
+    "fat": 8,
+    "fiber": 10,
+    "vitamins": [
+      { "name": "Vitamin C", "quantity": 100 },
+      { "name": "Vitamin E", "quantity": 3 },
+      { "name": "Folate", "quantity": 60 }
+    ],
+    "minerals": [
+      { "name": "Magnesium", "quantity": 150 },
+      { "name": "Phosphorus", "quantity": 300 },
+      { "name": "Zinc", "quantity": 2 }
+    ],
+    "servingSize": "1 stuffed pepper",
+    "image": "images/Quinoa-Stuffed Bell Peppers.png",
+    "description": "Delicious bell peppers stuffed with a savory mixture of quinoa, vegetables, and spices. This dish is a nutritious and satisfying option for fitness enthusiasts."
+  },
+  {
+    "name": "Chicken Caesar Salad",
+    "goal": "getFlexible",
+    "calories": 230,
+    "protein": 22.0,
+    "carbohydrates": 10,
+    "fat": 12,
+    "fiber": 4,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 120 },
+      { "name": "Vitamin C", "quantity": 15 },
+      { "name": "Vitamin K", "quantity": 40 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 150 },
+      { "name": "Iron", "quantity": 3 },
+      { "name": "Potassium", "quantity": 250 }
+    ],
+    "servingSize": "1 serving",
+    "image": "images/Chicken Caesar Salad.png",
+    "description": "A classic Caesar salad with grilled chicken, crisp lettuce, Parmesan cheese, and a tangy dressing. It's a flexible and satisfying option for a light and nutritious meal."
+  },
+  {
+    "name": "Peanut Butter Banana Smoothie",
+    "goal": "getFit",
+    "calories": 250,
+    "protein": 12.0,
+    "carbohydrates": 30,
+    "fat": 10,
+    "fiber": 6,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 10 },
+      { "name": "Vitamin C", "quantity": 8 },
+      { "name": "Vitamin E", "quantity": 3 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 150 },
+      { "name": "Iron", "quantity": 2 },
+      { "name": "Potassium", "quantity": 400 }
+    ],
+    "servingSize": "1 smoothie",
+    "image": "images/Peanut Butter Banana Smoothie.png",
+    "description": "A creamy and delicious smoothie made with peanut butter, banana, and almond milk. This protein-packed smoothie is a great choice for a quick and energizing snack to support your fitness goals."
+  },
+  {
+    "name": "Shrimp Stir-Fry",
+    "goal": "loseWeight",
+    "calories": 250,
+    "protein": 20.0,
+    "carbohydrates": 15,
+    "fat": 10,
+    "fiber": 4,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 50 },
+      { "name": "Vitamin C", "quantity": 25 },
+      { "name": "Vitamin K", "quantity": 20 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 80 },
+      { "name": "Iron", "quantity": 2 },
+      { "name": "Potassium", "quantity": 300 }
+    ],
+    "servingSize": "1 serving",
+    "image": "images/Shrimp Stir-Fry.png",
+    "description": "A flavorful stir-fry dish with succulent shrimp, mixed vegetables, and a savory sauce. It's a low-calorie option that provides a good source of protein for those aiming to lose weight."
+  },
+  {
+    "name": "Mushroom Risotto",
+    "goal": "getFlexible",
+    "calories": 320,
+    "protein": 8.0,
+    "carbohydrates": 45,
+    "fat": 10,
+    "fiber": 3,
+    "vitamins": [
+      { "name": "Vitamin D", "quantity": 10 },
+      { "name": "Vitamin B12", "quantity": 1 },
+      { "name": "Folate", "quantity": 40 }
+    ],
+    "minerals": [
+      { "name": "Magnesium", "quantity": 60 },
+      { "name": "Phosphorus", "quantity": 120 },
+      { "name": "Zinc", "quantity": 0.8 }
+    ],
+    "servingSize": "1 cup",
+    "image": "images/Mushroom Risotto.png",
+    "description": "A creamy and flavorful mushroom risotto made with Arborio rice, mushrooms, and Parmesan cheese. This comforting dish is a flexible choice for a satisfying and indulgent meal."
+  },
+  {
+    "name": "Eggplant Parmesan",
+    "goal": "getFit",
+    "calories": 280,
+    "protein": 12.0,
+    "carbohydrates": 30,
+    "fat": 14,
+    "fiber": 6,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 60 },
+      { "name": "Vitamin C", "quantity": 10 },
+      { "name": "Vitamin K", "quantity": 15 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 200 },
+      { "name": "Iron", "quantity": 3 },
+      { "name": "Potassium", "quantity": 250 }
+    ],
+    "servingSize": "1 serving",
+    "image": "images/Eggplant Parmesan.png",
+    "description": "A classic Italian dish with layers of breaded eggplant, marinara sauce, and melted cheese. This eggplant Parmesan is a delicious and nutritious choice for fitness enthusiasts."
+  },
+  {
+    "name": "Berry Spinach Salad",
+    "goal": "getFlexible",
+    "calories": 180,
+    "protein": 6.0,
+    "carbohydrates": 20,
+    "fat": 10,
+    "fiber": 5,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 120 },
+      { "name": "Vitamin C", "quantity": 40 },
+      { "name": "Vitamin K", "quantity": 60 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 100 },
+      { "name": "Iron", "quantity": 2 },
+      { "name": "Potassium", "quantity": 200 }
+    ],
+    "servingSize": "1 serving",
+    "image": "images/Berry Spinach Salad.png",
+    "description": "A refreshing and nutritious salad with a mix of fresh berries, baby spinach, and a tangy dressing. It's a flexible option for a light and healthy meal or side dish."
+  },
+  {
+    "name": "Chocolate Protein Pancakes",
+    "goal": "getFit",
+    "calories": 300,
+    "protein": 20.0,
+    "carbohydrates": 30,
+    "fat": 10,
+    "fiber": 5,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 6 },
+      { "name": "Vitamin C", "quantity": 2 },
+      { "name": "Vitamin E", "quantity": 1.5 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 200 },
+      { "name": "Iron", "quantity": 2 },
+      { "name": "Potassium", "quantity": 300 }
+    ],
+    "servingSize": "2 pancakes",
+    "image": "images/Chocolate Protein Pancakes.png",
+    "description": "Delicious and fluffy chocolate pancakes made with protein powder and topped with your favorite fruits. These protein-packed pancakes are a perfect choice for a satisfying and energizing breakfast or brunch."
+  },
+  {
+    "name": "Grilled Steak",
+    "goal": "loseWeight",
+    "calories": 300,
+    "protein": 25.0,
+    "carbohydrates": 0,
+    "fat": 20,
+    "fiber": 0,
+    "vitamins": [
+      { "name": "Vitamin B12", "quantity": 50 },
+      { "name": "Vitamin B6", "quantity": 20 },
+      { "name": "Iron", "quantity": 10 }
+    ],
+    "minerals": [
+      { "name": "Zinc", "quantity": 30 },
+      { "name": "Selenium", "quantity": 40 },
+      { "name": "Phosphorus", "quantity": 25 }
+    ],
+    "servingSize": "1 serving",
+    "image": "images/Grilled Steak.png",
+    "description": "A juicy and flavorful grilled steak seasoned to perfection. This protein-rich meal is ideal for those aiming to lose weight while enjoying a delicious steak."
+  },
+  {
+    "name": "Greek Salad",
+    "goal": "getFlexible",
+    "calories": 180,
+    "protein": 8.0,
+    "carbohydrates": 10,
+    "fat": 12,
+    "fiber": 4,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 80 },
+      { "name": "Vitamin C", "quantity": 30 },
+      { "name": "Vitamin K", "quantity": 40 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 120 },
+      { "name": "Iron", "quantity": 2 },
+      { "name": "Potassium", "quantity": 250 }
+    ],
+    "servingSize": "1 serving",
+    "image": "images/Greek Salad.png",
+    "description": "A refreshing and healthy Greek salad with crisp lettuce, tomatoes, cucumbers, olives, and feta cheese. It's a flexible choice for a light and nutritious meal or side dish."
+  },
+  {
+    "name": "Vegan Buddha Bowl",
+    "goal": "getFit",
+    "calories": 280,
+    "protein": 12.0,
+    "carbohydrates": 40,
+    "fat": 8,
+    "fiber": 8,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 100 },
+      { "name": "Vitamin C", "quantity": 30 },
+      { "name": "Vitamin E", "quantity": 4 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 150 },
+      { "name": "Iron", "quantity": 3 },
+      { "name": "Potassium", "quantity": 350 }
+    ],
+    "servingSize": "1 bowl",
+    "image": "images/Vegan Buddha Bowl.png",
+    "description": "A colorful and nutrient-packed vegan Buddha bowl with a variety of vegetables, grains, and plant-based protein. This wholesome bowl is perfect for fitness enthusiasts looking for a well-rounded meal."
+  },
+  {
+    "name": "Spaghetti Bolognese",
+    "goal": "getFlexible",
+    "calories": 400,
+    "protein": 20.0,
+    "carbohydrates": 60,
+    "fat": 10,
+    "fiber": 6,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 40 },
+      { "name": "Vitamin C", "quantity": 15 },
+      { "name": "Vitamin K", "quantity": 10 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 100 },
+      { "name": "Iron", "quantity": 4 },
+      { "name": "Potassium", "quantity": 300 }
+    ],
+    "servingSize": "1 serving",
+    "image": "images/Spaghetti Bolognese.png",
+    "description": "A classic spaghetti Bolognese dish with a rich tomato sauce, ground beef, and pasta. It's a flexible and satisfying option for a comforting and hearty meal."
+  },
+  {
+    "name": "Berry Smoothie Bowl",
+    "goal": "getFit",
+    "calories": 250,
+    "protein": 10.0,
+    "carbohydrates": 40,
+    "fat": 5,
+    "fiber": 8,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 15 },
+      { "name": "Vitamin C", "quantity": 40 },
+      { "name": "Vitamin E", "quantity": 2 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 150 },
+      { "name": "Iron", "quantity": 2 },
+      { "name": "Potassium", "quantity": 350 }
+    ],
+    "servingSize": "1 bowl",
+    "image": "images/Berry Smoothie Bowl.png",
+    "description": "A vibrant and nutritious smoothie bowl made with mixed berries, almond milk, and topped with granola and fresh fruits. This delicious bowl is a great choice for a healthy and refreshing breakfast or snack."
+  },
+  {
+    "name": "Chicken Breast with Quinoa",
+    "goal": "bodyBuilding",
+    "calories": 400,
+    "protein": 40.0,
+    "carbohydrates": 30,
+    "fat": 8,
+    "fiber": 5,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 10 },
+      { "name": "Vitamin C", "quantity": 8 },
+      { "name": "Vitamin E", "quantity": 2 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 100 },
+      { "name": "Iron", "quantity": 3 },
+      { "name": "Potassium", "quantity": 400 }
+    ],
+    "servingSize": "1 meal",
+    "image": "images/Chicken Breast with Quinoa.png",
+    "description": "A protein-packed meal consisting of grilled chicken breast served with a side of quinoa and steamed vegetables. Perfect for bodybuilding and muscle recovery."
+  },
+  {
+    "name": "Salmon and Sweet Potato",
+    "goal": "bodyBuilding",
+    "calories": 450,
+    "protein": 35.0,
+    "carbohydrates": 40,
+    "fat": 12,
+    "fiber": 6,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 12 },
+      { "name": "Vitamin C", "quantity": 10 },
+      { "name": "Vitamin E", "quantity": 3 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 120 },
+      { "name": "Iron", "quantity": 2.5 },
+      { "name": "Potassium", "quantity": 450 }
+    ],
+    "servingSize": "1 meal",
+    "image": "images/Salmon and Sweet Potato.png",
+    "description": "A nutritious meal featuring grilled salmon fillet accompanied by roasted sweet potatoes and a side of steamed broccoli. Ideal for bodybuilders looking for a balanced and tasty meal."
+  },
+  {
+    "name": "Lean Beef Stir-Fry",
+    "goal": "bodyBuilding",
+    "calories": 500,
+    "protein": 45.0,
+    "carbohydrates": 35,
+    "fat": 15,
+    "fiber": 6,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 8 },
+      { "name": "Vitamin C", "quantity": 15 },
+      { "name": "Vitamin E", "quantity": 2 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 80 },
+      { "name": "Iron", "quantity": 4 },
+      { "name": "Potassium", "quantity": 500 }
+    ],
+    "servingSize": "1 meal",
+    "image": "images/Lean Beef Stir-Fry.png",
+    "description": "A protein-rich stir-fry made with lean beef, colorful vegetables, and a savory sauce. Packed with nutrients and flavors, this meal is perfect for fueling your bodybuilding goals."
+  },
+  {
+    "name": "Egg White Omelette",
+    "goal": "bodyBuilding",
+    "calories": 300,
+    "protein": 30.0,
+    "carbohydrates": 15,
+    "fat": 10,
+    "fiber": 3,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 6 },
+      { "name": "Vitamin C", "quantity": 2 },
+      { "name": "Vitamin E", "quantity": 1 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 60 },
+      { "name": "Iron", "quantity": 2.5 },
+      { "name": "Potassium", "quantity": 300 }
+    ],
+    "servingSize": "1 meal",
+    "image": "images/Egg White Omelette.png",
+    "description": "A low-fat and high-protein omelette made with egg whites, spinach, and diced tomatoes. This meal is a great choice for bodybuilders seeking a nutritious and satisfying breakfast or brunch option."
+  },
+  {
+    "name": "Grilled Chicken Salad",
+    "goal": "bodyBuilding",
+    "calories": 350,
+    "protein": 30.0,
+    "carbohydrates": 15,
+    "fat": 12,
+    "fiber": 8,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 10 },
+      { "name": "Vitamin C", "quantity": 20 },
+      { "name": "Vitamin E", "quantity": 2 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 100 },
+      { "name": "Iron", "quantity": 2.5 },
+      { "name": "Potassium", "quantity": 400 }
+    ],
+    "servingSize": "1 meal",
+    "image": "images/Grilled Chicken Salad.png",
+    "description": "A satisfying and protein-packed salad made with grilled chicken breast, mixed greens, cherry tomatoes, cucumber slices, and a light vinaigrette dressing. This meal provides essential nutrients for bodybuilders looking for a refreshing and nutritious option."
+  },
+  {
+    "name": "Tuna and Brown Rice",
+    "goal": "bodyBuilding",
+    "calories": 400,
+    "protein": 35.0,
+    "carbohydrates": 40,
+    "fat": 10,
+    "fiber": 5,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 6 },
+      { "name": "Vitamin C", "quantity": 4 },
+      { "name": "Vitamin E", "quantity": 1 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 80 },
+      { "name": "Iron", "quantity": 3 },
+      { "name": "Potassium", "quantity": 500 }
+    ],
+    "servingSize": "1 meal",
+    "image": "images/Tuna and Brown Rice.png",
+    "description": "A nutritious meal consisting of flaked tuna, cooked brown rice, steamed vegetables, and a sprinkle of sesame seeds. Packed with lean protein and complex carbohydrates, this meal is perfect for bodybuilders seeking fuel for their workouts."
+  },
+  {
+    "name": "Beef and Broccoli Stir-Fry",
+    "goal": "bodyBuilding",
+    "calories": 450,
+    "protein": 40.0,
+    "carbohydrates": 25,
+    "fat": 15,
+    "fiber": 6,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 8 },
+      { "name": "Vitamin C", "quantity": 20 },
+      { "name": "Vitamin E", "quantity": 2 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 100 },
+      { "name": "Iron", "quantity": 4 },
+      { "name": "Potassium", "quantity": 450 }
+    ],
+    "servingSize": "1 meal",
+    "image": "images/Beef and Broccoli Stir-Fry.png",
+    "description": "A flavorful stir-fry dish made with lean beef, fresh broccoli florets, and a savory ginger-soy sauce. This protein-rich meal is perfect for bodybuilders looking to satisfy their cravings while maintaining a balanced diet."
+  },
+  {
+    "name": "Grilled Salmon with Quinoa Salad",
+    "goal": "bodyBuilding",
+    "calories": 400,
+    "protein": 35.0,
+    "carbohydrates": 30,
+    "fat": 18,
+    "fiber": 6,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 10 },
+      { "name": "Vitamin C", "quantity": 15 },
+      { "name": "Vitamin E", "quantity": 3 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 120 },
+      { "name": "Iron", "quantity": 2.5 },
+      { "name": "Potassium", "quantity": 500 }
+    ],
+    "servingSize": "1 meal",
+    "image": "images/Grilled Salmon with Quinoa Salad.png",
+    "description": "A satisfying meal featuring grilled salmon fillet served on a bed of nutritious quinoa salad with mixed vegetables and a zesty lemon dressing. This balanced meal is ideal for bodybuilders seeking a flavorful and protein-packed option."
+  },
+  {
+    "name": "Turkey Meatballs with Sweet Potato",
+    "goal": "bodyBuilding",
+    "calories": 380,
+    "protein": 35.0,
+    "carbohydrates": 25,
+    "fat": 15,
+    "fiber": 6,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 8 },
+      { "name": "Vitamin C", "quantity": 10 },
+      { "name": "Vitamin E", "quantity": 2 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 90 },
+      { "name": "Iron", "quantity": 3 },
+      { "name": "Potassium", "quantity": 400 }
+    ],
+    "servingSize": "1 meal",
+    "image": "images/Turkey Meatballs with Sweet Potato.png",
+    "description": "Juicy turkey meatballs served with roasted sweet potato wedges and a side of steamed green beans. This protein-rich meal is perfect for bodybuilders seeking a delicious and well-rounded option to support their muscle-building goals."
+  },
+  {
+    "name": "Quinoa and Black Bean Bowl",
+    "goal": "bodyBuilding",
+    "calories": 400,
+    "protein": 25.0,
+    "carbohydrates": 45,
+    "fat": 10,
+    "fiber": 10,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 6 },
+      { "name": "Vitamin C", "quantity": 15 },
+      { "name": "Vitamin E", "quantity": 2 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 80 },
+      { "name": "Iron", "quantity": 3 },
+      { "name": "Potassium", "quantity": 500 }
+    ],
+    "servingSize": "1 meal",
+    "image": "images/Quinoa and Black Bean Bowl.png",
+    "description": "A hearty bowl featuring cooked quinoa, black beans, sautéed vegetables, and a sprinkle of feta cheese. This plant-based meal offers a good balance of protein, complex carbs, and fiber, making it a great choice for bodybuilders seeking a nutritious and satisfying option."
+  },
+  {
+    "name": "Grilled Steak with Roasted Vegetables",
+    "goal": "bodyBuilding",
+    "calories": 450,
+    "protein": 40.0,
+    "carbohydrates": 20,
+    "fat": 18,
+    "fiber": 6,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 10 },
+      { "name": "Vitamin C", "quantity": 15 },
+      { "name": "Vitamin E", "quantity": 3 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 120 },
+      { "name": "Iron", "quantity": 4 },
+      { "name": "Potassium", "quantity": 450 }
+    ],
+    "servingSize": "1 meal",
+    "image": "images/Grilled Steak with Roasted Vegetables.png",
+    "description": "A protein-packed meal featuring grilled steak cooked to perfection and served with a variety of colorful roasted vegetables. This delicious and nutritious meal is perfect for bodybuilders seeking a satisfying option to support their muscle-building goals."
+  },
+  {
+    "name": "Greek Yogurt Parfait",
+    "goal": "bodyBuilding",
+    "calories": 300,
+    "protein": 20.0,
+    "carbohydrates": 35,
+    "fat": 10,
+    "fiber": 4,
+    "vitamins": [
+      { "name": "Vitamin A", "quantity": 6 },
+      { "name": "Vitamin C", "quantity": 8 },
+      { "name": "Vitamin E", "quantity": 1 }
+    ],
+    "minerals": [
+      { "name": "Calcium", "quantity": 200 },
+      { "name": "Iron", "quantity": 1.5 },
+      { "name": "Potassium", "quantity": 300 }
+    ],
+    "servingSize": "1 meal",
+    "image": "images/Greek Yogurt Parfait.png",
+    "description": "A protein-rich parfait made with Greek yogurt, fresh berries, granola, and a drizzle of honey. This delicious and satisfying meal is an excellent choice for bodybuilders seeking a nutritious and energizing option."
+  }
+]

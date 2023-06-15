@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "713024090023",
+    "project_id": "gymgenie-a6ec4",
+    "storage_bucket": "gymgenie-a6ec4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713024090023:android:c6a1dc9894d20863065082",
+        "android_client_info": {
+          "package_name": "com.example.virtual_gym_coach"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgZpuYqKhbftMfvjgBpVyg8kmm05OEvRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

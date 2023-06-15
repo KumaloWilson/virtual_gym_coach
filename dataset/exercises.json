@@ -1,0 +1,1593 @@
+{
+  "getFit": [
+    {
+      "animation": "workout_animations/push-up.json",
+      "name": "Push-ups",
+      "description": "Start in a plank position with your hands slightly wider than shoulder-width apart. Lower your body until your chest almost touches the ground, then push back up. Do 20 push-ups in this form.",
+      "count": {
+        "males": 20,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 100
+    },
+    {
+      "animation": "workout_animations/chinup-animation.json",
+      "name": "Chin-ups",
+      "description": "Hang from a pull-up bar with your palms facing toward you and your hands shoulder-width apart. Pull your body up until your chin is above the bar, then lower yourself back down. If needed, use a resistance band or assisted machine. Do 8 chin-ups.",
+      "count": {
+        "males": 8,
+        "females": 5
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 80
+    },
+    {
+      "animation": "workout_animations/bulgarian-split-squat-jump-right.json",
+      "name": "Bulgarian Split Squat",
+      "description": "Stand with one foot about two feet in front of the other and rest the top of your rear foot on a bench or step. Lower your body into a lunge position until your front thigh is parallel to the ground, then push back up to the starting position. Do 12 Bulgarian split squats on each leg.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 75
+    },
+    {
+      "animation": "workout_animations/jumping-jack.json",
+      "name": "Jumping Jacks",
+      "description": "Stand with your feet together and arms at your sides. Jump up, spreading your feet out wide and raising your arms above your head. Jump again, returning to the starting position. Do 50 jumping jacks.",
+      "count": {
+        "males": 50,
+        "females": 30
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 80
+    },
+    {
+      "animation": "workout_animations/squat.json",
+      "name": "Squats",
+      "description": "Stand with your feet shoulder-width apart. Bend your knees and lower your body as if you're sitting back into a chair. Keep your chest up and core engaged. Return to the starting position. Do 15 squats.",
+      "count": {
+        "males": 15,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 90
+    },
+    {
+      "animation": "workout_animations/plank-excercise.json",
+      "name": "Plank",
+      "description": "Start in a push-up position with your forearms resting on the ground. Keep your body in a straight line from head to heels, engaging your core. Hold this position for 30 seconds.",
+      "duration": {
+        "males": 30,
+        "females": 20
+      },
+      "count": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 50
+    },
+    {
+      "animation": "workout_animations/bulgarian-split-squat-jump-right.json",
+      "name": "Bulgarian Split Squat",
+      "description": "Stand in a split stance with one foot forward and the other foot elevated behind you on a bench or step. Lower your body by bending your front knee and lowering your back knee towards the ground. Push through your front heel to return to the starting position. Do 12 Bulgarian split squats on each leg.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 95
+    },
+    {
+      "animation": "workout_animations/box-jump-exercise.json",
+      "name": "Box Jump",
+      "description": "Stand in front of a sturdy box or platform. Jump explosively, driving your arms forward, and land softly on top of the box with both feet. Step back down and repeat. Do 10 box jumps.",
+      "count": {
+        "males": 10,
+        "females": 8
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+
+      "calories_burnt": 110
+    },
+    {
+      "animation": "workout_animations/russian-twists.json",
+      "name": "Russian Twist",
+      "description": "Sit on the ground with your knees bent and feet lifted off the floor. Lean back slightly, engage your core, and twist your torso from side to side, touching the ground on each side. Do 20 Russian twists.",
+      "count": {
+        "males": 20,
+        "females": 15
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 65
+    },
+    {
+      "animation": "workout_animations/shoulder-press-exercise.json",
+      "name": "Shoulder Press",
+      "description": "Stand with your feet shoulder-width apart and hold a dumbbell in each hand. Raise the dumbbells to shoulder level with palms facing forward. Push the dumbbells upward until your arms are fully extended overhead. Lower back down and repeat. Do 12 shoulder presses.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 85
+    },
+    {
+      "animation": "workout_animations/cobra.json",
+      "name": "Cobra Stretch",
+      "description": "Lie face down on the ground with your palms on the floor beneath your shoulders. Press your hands into the floor and lift your chest, arching your back and looking upwards. Hold this position for 30 seconds.",
+      "duration": {
+        "males": 30,
+        "females": 20
+      },
+      "count": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 30
+    },
+    {
+      "animation": "workout_animations/rope-exercise.json",
+      "name": "Skipping Rope",
+      "description": "Hold the handles of a jump rope and swing it over your head. Jump over the rope as it approaches your feet. Continue jumping for 1 minute.",
+      "duration": {
+        "males": 60,
+        "females": 45
+      },
+      "count": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 130
+    },
+    {
+      "animation": "workout_animations/step-up-on-chair.json",
+      "name": "Step Up on Chair",
+      "description": "Stand in front of a sturdy chair or step. Step onto the chair with your right foot, then bring your left foot up. Step back down with your right foot, followed by your left. Repeat, leading with the opposite foot. Do 15 step-ups on each leg.",
+      "count": {
+        "males": 15,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 90
+    },
+    {
+      "animation": "workout_animations/wall-sitting.json",
+      "name": "Wall Sitting",
+      "description": "Stand with your back against a wall and lower your body into a seated position, as if sitting on an invisible chair. Hold this position for 1 minute.",
+      "duration": {
+        "males": 60,
+        "females": 45
+      },
+      "count": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 80
+    },
+    {
+      "animation": "workout_animations/wide-arm-push-up.json",
+      "name": "Wide Arm Push Up",
+      "description": "Assume a push-up position with your hands placed wider than shoulder-width apart. Lower your body until your chest is just above the ground, then push back up to the starting position. Do 12 wide arm push-ups.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 85
+    },
+    {
+      "animation": "workout_animations/burpee.json",
+      "name": "Burpee",
+      "description": "Start in a standing position, then quickly drop down into a push-up position. Perform a push-up, then jump your feet forward and explosively jump into the air with your arms raised. Land softly and repeat. Do 15 burpees.",
+      "count": {
+        "males": 15,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 120
+    },
+    {
+      "animation": "workout_animations/lunge.json",
+      "name": "Lunges",
+      "description": "Stand with your feet hip-width apart. Take a big step forward with your right leg and lower your body until your right thigh is parallel to the ground and your left knee is hovering just above the floor. Push through your right heel to return to the starting position. Repeat on the other side. Do 12 lunges on each leg.",
+      "count": {
+        "males": 15,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 85
+    },
+    {
+      "animation": "workout_animations/bench-press.json",
+      "name": "Bench Press",
+      "description": "Lie on a flat bench with a barbell at chest level. Grip the barbell slightly wider than shoulder-width apart. Lower the barbell to your chest, then push it back up to the starting position. Do 10 bench press reps.",
+      "count": {
+        "males": 10,
+        "females": 8
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 90
+    },
+    {
+      "animation": "workout_animations/bridge.json",
+      "name": "Bridge",
+      "description": "Lie on your back with knees bent and feet flat on the ground. Lift your hips off the ground, keeping your back straight, until your body forms a straight line from shoulders to knees. Hold this position for 30 seconds.",
+      "duration": {
+        "males": 30,
+        "females": 20
+      },
+      "count": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    }
+  ],
+  "loseWeight": [
+    {
+      "animation": "workout_animations/jumping-squats.json",
+      "name": "Jumping Squats",
+      "description": "Stand with your feet shoulder-width apart. Lower your body into a squat position, then explosively jump into the air as high as you can. Land softly and immediately lower into another squat. Do 15 jumping squats.",
+      "count": {
+        "males": 15,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 110
+    },
+    {
+      "animation": "workout_animations/rope-exercise.json",
+      "name": "Skipping Rope",
+      "description": "Hold the handles of a jump rope and swing it over your head. Jump over the rope as it approaches your feet. Continue jumping for 1 minute.",
+      "duration": {
+        "males": 60,
+        "females": 40
+      },
+      "count": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 130
+    },
+    {
+      "animation": "workout_animations/russian-twists.json",
+      "name": "Russian Twist",
+      "description": "Sit on the ground with your knees bent and your feet raised slightly off the floor. Lean back slightly, engage your core, and twist your torso to the right, touching the ground with your fingertips. Twist to the left and touch the ground on the other side. Continue alternating sides. Do 20 Russian twists.",
+      "count": {
+        "males": 20,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 70
+    },
+    {
+      "animation": "workout_animations/step-up-on-chair.json",
+      "name": "Step Up on Chair",
+      "description": "Stand in front of a sturdy chair or step. Step onto the chair with your right foot, then bring your left foot up. Step back down with your right foot, followed by your left. Repeat, leading with the opposite foot. Do 15 step-ups on each leg.",
+      "count": {
+        "males": 15,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 90
+    },
+    {
+      "animation": "workout_animations/wall-sitting.json",
+      "name": "Wall Sitting",
+      "description": "Stand with your back against a wall and lower your body into a seated position, as if sitting on an invisible chair. Hold this position for 1 minute.",
+      "duration": {
+        "males": 60,
+        "females": 40
+      },
+      "count": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 80
+    },
+    {
+      "animation": "workout_animations/wide-arm-push-up.json",
+      "name": "Wide Arm Push Up",
+      "description": "Assume a push-up position with your hands placed wider than shoulder-width apart. Lower your body until your chest is just above the ground, then push back up to the starting position. Do 12 wide arm push-ups.",
+      "count": {
+        "males": 15,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 85
+    },
+    {
+      "animation": "workout_animations/box-jump-exercise.json",
+      "name": "Box Jump Exercise",
+      "description": "Find a stable box or platform. Stand in front of the box with your feet shoulder-width apart. Bend your knees and swing your arms back, then explosively jump onto the box, landing softly with your knees slightly bent. Step back down and repeat. Do 10 box jumps.",
+      "count": {
+        "males": 10,
+        "females": 5
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 90
+    },
+    {
+      "animation": "workout_animations/plank-excercise.json",
+      "name": "Plank",
+      "description": "Start in a push-up position with your forearms resting on the ground. Keep your body in a straight line from head to heels, engaging your core. Hold this position for 30 seconds.",
+      "duration": {
+        "males": 30,
+        "females": 20
+      },
+      "count": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 50
+    },
+    {
+      "animation": "workout_animations/jumping-jack.json",
+      "name": "Jumping Jacks",
+      "description": "Stand with your feet together and your arms by your sides. Jump your feet out wide while raising your arms overhead, then jump back to the starting position. Do 30 jumping jacks.",
+      "count": {
+        "males": 30,
+        "females": 20
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 60
+    },
+    {
+      "animation": "workout_animations/burpee.json",
+      "name": "Burpees",
+      "description": "Start in a standing position. Drop into a squat position with your hands on the ground. Kick your feet back, landing in a push-up position. Quickly return your feet to the squat position, then jump up explosively. Do 10 burpees.",
+      "count": {
+        "males": 12,
+        "females": 8
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 120
+    },
+    {
+      "animation": "workout_animations/jumping-squats.json",
+      "name": "Jump Squats",
+      "description": "Stand with your feet shoulder-width apart. Lower into a squat position, then explode upwards into a jump, reaching as high as you can. Land softly and immediately lower into the next squat. Do 12 jump squats.",
+      "count": {
+        "males": 15,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 110
+    },
+    {
+      "animation": "workout_animations/jumping-lunges.json",
+      "name": "Jumping Lunges",
+      "description": "Start in a lunge position with your right leg forward. Jump up explosively, switching legs mid-air and landing with your left leg forward. Repeat, alternating legs with each jump. Do 15 jumping lunges (7 for each leg).",
+      "count": {
+        "males": 15,
+        "females": 12
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 105
+    },
+    {
+      "animation": "workout_animations/rope-exercise.json",
+      "name": "Skipping Rope",
+      "description": "Hold the handles of a jump rope and swing it over your head, jumping over it with both feet as it reaches the ground. Keep a steady pace and aim for height with each jump. Do 100 jumps with the skipping rope.",
+      "count": {
+        "males": 100,
+        "females": 80
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 120
+    },
+    {
+      "animation": "workout_animations/spiderman-push-up.json",
+      "name": "Spiderman Push-ups",
+      "description": "Start in a push-up position. As you lower your body towards the ground, bring your right knee towards your right elbow. Push back up and repeat on the other side, bringing your left knee towards your left elbow. Do 12 spiderman push-ups (6 on each side).",
+      "count": {
+        "males": 12,
+        "females": 8
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 95
+    },
+    {
+      "animation": "workout_animations/lunge.json",
+      "name": "Lunge",
+      "description": "Stand with your feet hip-width apart. Take a big step forward with your right leg and lower your body until your right thigh is parallel to the ground and your left knee is hovering just above the floor. Push through your right heel to return to the starting position. Repeat on the other side. Do 12 lunges on each leg.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 85
+    },
+    {
+      "animation": "workout_animations/plank-excercise.json",
+      "name": "Plank",
+      "description": "Start in a push-up position with your forearms resting on the ground. Keep your body in a straight line from head to heels, engaging your core. Hold this position for 30 seconds.",
+      "duration": {
+        "males": 30,
+        "females": 20
+      },
+      "count": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 50
+    },
+    {
+      "animation": "workout_animations/russian-twists.json",
+      "name": "Russian Twist",
+      "description": "Sit on the ground with your knees bent and feet lifted off the floor. Lean back slightly, engage your core, and twist your torso from side to side, touching the ground on each side. Do 20 Russian twists.",
+      "count": {
+        "males": 20,
+        "females": 15
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 65
+    },
+    {
+      "animation": "workout_animations/wall-sitting.json",
+      "name": "Wall Sit",
+      "description": "Stand with your back against a wall and slide down until your thighs are parallel to the ground, as if sitting on an invisible chair. Hold this position for 1 minute.",
+      "duration": {
+        "males": 60,
+        "females": 45
+      },
+      "count": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 60
+    },
+    {
+      "animation": "workout_animations/bench-press.json",
+      "name": "Bench Press",
+      "description": "Lie on a flat bench with your feet flat on the ground. Hold a barbell or dumbbells with your hands slightly wider than shoulder-width apart. Lower the weight towards your chest, then push it back up to the starting position. Do 12 bench presses.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 80
+    },
+    {
+      "animation": "workout_animations/burpee-and-jump-exercise.json",
+      "name": "Burpee and Jump Exercise",
+      "description": "Start in a standing position, then quickly drop down into a push-up position. Perform a push-up, then jump your feet forward and explosively jump into the air with your arms raised. Land softly and repeat. Do 15 burpees and jump exercises.",
+      "count": {
+        "males": 15,
+        "females": 12
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 120
+    }
+  ],
+  "getFlexible": [
+    {
+      "animation": "workout_animations/cobra.json",
+      "name": "Cobra Pose",
+      "description": "Lie face down on the ground with your palms on the floor beneath your shoulders. Press your hands into the floor and lift your chest, arching your back and looking upwards. Hold this position for 30 seconds.",
+      "duration": {
+        "males": 30,
+        "females": 20
+      },
+      "count": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 30
+    },
+    {
+      "animation": "workout_animations/jumping-squats.json",
+      "name": "Tree Pose",
+      "description": "Stand with your feet together. Shift your weight onto your left foot and place your right foot on your left inner thigh. Press your hands together in front of your chest. Hold this position for 30 seconds, then switch sides.",
+      "duration": {
+        "males": 30,
+        "females": 20
+      },
+      "count": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 30
+    },
+    {
+      "animation": "workout_animations/side-plank.json",
+      "name": "Side Plank",
+      "description": "Start in a plank position, then shift your weight onto your right hand and rotate your body to the left, lifting your left arm towards the ceiling. Hold this position for 30 seconds, then switch sides.",
+      "duration": {
+        "males": 30,
+        "females": 20
+      },
+      "count": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/wide-arm-push-up.json",
+      "name": "Wide Arm Push-up",
+      "description": "Start in a plank position with your hands placed wider than shoulder-width apart. Lower your body until your chest almost touches the ground, then push back up. Do 15 wide arm push-ups.",
+      "count": {
+        "males": 15,
+        "females": 12
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 90
+    },
+    {
+      "animation": "workout_animations/shoulder-stretch.json",
+      "name": "Shoulder Stretch",
+      "description": "Stand tall and reach your right arm straight across your chest. Use your left hand to gently pull your right arm closer to your body. Hold this stretch for 30 seconds, then switch sides.",
+      "duration": {
+        "males": 30,
+        "females": 20
+      },
+      "count": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 20
+    },
+    {
+      "animation": "workout_animations/seated-abs-circles.json",
+      "name": "Seated Ab Circles",
+      "description": "Sit on the ground with your legs extended. Lean back slightly, engage your core, and draw circles in the air with your legs. Do 20 seated ab circles clockwise, then repeat counterclockwise.",
+      "count": {
+        "males": 20,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 35
+    },
+    {
+      "animation": "workout_animations/shoulder-press-exercise.json",
+      "name": "Shoulder Press",
+      "description": "Stand with your feet shoulder-width apart and hold a dumbbell in each hand. Raise the dumbbells to shoulder level with palms facing forward. Push the dumbbells upward until your arms are fully extended overhead. Lower back down and repeat. Do 12 shoulder presses.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 85
+    },
+    {
+      "animation": "workout_animations/jumping-squats.json",
+      "name": "Yoga Neck Exercises",
+      "description": "Sit tall and gently tilt your head to the right, bringing your right ear towards your right shoulder. Hold this stretch for 15 seconds, then repeat on the left side. Next, drop your chin towards your chest and hold for 15 seconds. Finally, tilt your head back and look towards the ceiling, holding for 15 seconds.",
+      "duration": {
+        "males": 15,
+        "females": 10
+      },
+      "count": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 15
+    },
+    {
+      "animation": "workout_animations/yoga-neck-exercise.json",
+      "name": "Forearm Stretch",
+      "description": "Extend your right arm forward with your palm facing down. Use your left hand to gently pull your right fingers back towards your body. Hold this stretch for 15 seconds, then switch sides.",
+      "duration": {
+        "males": 15,
+        "females": 10
+      },
+      "count": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 15
+    },
+    {
+      "animation": "workout_animations/cobras.json",
+      "name": "Cobra Pose",
+      "description": "Lie face down on the ground with your palms on the floor beneath your shoulders. Press your hands into the floor and lift your chest, arching your back and looking upwards. Hold this position for 30 seconds.",
+      "duration": {
+        "males": 30,
+        "females": 20
+      },
+      "count": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 30
+    },
+    {
+      "animation": "workout_animations/forearm-stretch-exercise-for-tired-of-cancer-bv.json",
+      "name": "Forearm Stretch",
+      "description": "Extend your right arm forward with your palm facing down. Use your left hand to gently pull your right fingers back towards your body. Hold this stretch for 20 seconds, then switch arms.",
+      "duration": {
+        "males": 20,
+        "females": 10
+      },
+      "count": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 10
+    },
+    {
+      "animation": "workout_animations/bridge.json",
+      "name": "Bridge",
+      "description": "Lie on your back with your knees bent and your feet flat on the ground. Press through your heels and lift your hips off the ground, creating a straight line from your knees to your shoulders. Hold this position for 30 seconds.",
+      "duration": {
+        "males": 30,
+        "females": 20
+      },
+      "count": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/yoga-neck-exercise.json",
+      "name": "Yoga Neck Exercise",
+      "description": "Sit in a comfortable position with your spine straight. Slowly tilt your head to the right, bringing your right ear towards your right shoulder. Hold this stretch for 20 seconds, then repeat on the left side.",
+      "duration": {
+        "males": 20,
+        "females": 10
+      },
+      "count": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 10
+    },
+    {
+      "animation": "workout_animations/shoulder-press-exercise.json",
+      "name": "Shoulder Press Exercise",
+      "description": "Stand with your feet shoulder-width apart and hold dumbbells in each hand. Lift the dumbbells to shoulder level, then press them overhead until your arms are fully extended. Lower the dumbbells back to shoulder level and repeat. Do 12 shoulder press exercises.",
+      "count": {
+        "males": 15,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 60
+    },
+    {
+      "animation": "workout_animations/side-plank.json",
+      "name": "Side Plank",
+      "description": "Lie on your side with your legs straight and stacked on top of each other. Prop yourself up on your forearm, with your elbow directly beneath your shoulder. Lift your hips off the ground, creating a straight line from head to heels. Hold this position for 30 seconds on each side.",
+      "duration": {
+        "males": 30,
+        "females": 20
+      },
+      "count": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/leg-up-workout-lottie-json-animation.json",
+      "name": "Leg Up Workout",
+      "description": "Lie on your back with your legs extended towards the ceiling. Slowly lower your legs towards the ground, keeping them straight, until they are a few inches off the floor. Raise your legs back up to the starting position. Do 15 leg up workouts.",
+      "count": {
+        "males": 15,
+        "females": 12
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 50
+    },
+    {
+      "animation": "workout_animations/tree-pose-yoga.json",
+      "name": "Tree Pose (Yoga)",
+      "description": "Stand tall with your feet together. Shift your weight onto your left foot and bring the sole of your right foot to rest on your left inner thigh. Press your hands together in front of your chest and hold this position for 30 seconds. Repeat on the other side.",
+      "duration": {
+        "males": 30,
+        "females": 20
+      },
+      "count": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 30
+    },
+    {
+      "animation": "workout_animations/cobra.json",
+      "name": "Cobra",
+      "description": "Lie face down on the ground with your palms on the floor beneath your shoulders. Press your hands into the floor and lift your chest, arching your back and looking upwards. Hold this position for 30 seconds.",
+      "duration": {
+        "males": 30,
+        "females": 20
+      },
+      "count": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 30
+    }
+  ],
+  "bodyBuilding": [
+    {
+      "animation": "workout_animations/jumping-squats.json",
+      "name": "Tree Pose",
+      "description": "Stand with your feet together. Shift your weight onto your left foot and place your right foot on your left inner thigh. Press your hands together in front of your chest. Hold this position for 30 seconds, then switch sides.",
+      "duration": {
+        "males": 30,
+        "females": 20
+      },
+      "count": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 30
+    },
+    {
+      "animation": "workout_animations/side-plank.json",
+      "name": "Side Plank",
+      "description": "Start in a plank position, then shift your weight onto your right hand and rotate your body to the left, lifting your left arm towards the ceiling. Hold this position for 30 seconds, then switch sides.",
+      "duration": {
+        "males": 30,
+        "females": 20
+      },
+      "count": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/wide-arm-push-up.json",
+      "name": "Wide Arm Push-up",
+      "description": "Start in a plank position with your hands placed wider than shoulder-width apart. Lower your body until your chest almost touches the ground, then push back up. Do 15 wide arm push-ups.",
+      "count": {
+        "males": 15,
+        "females": 12
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 90
+    },
+    {
+      "animation": "workout_animations/shoulder-press.json",
+      "name": "Shoulder Press",
+      "description": "Sit on a bench with dumbbells held at shoulder height, palms facing forward. Push the dumbbells up and slightly inward until your arms are fully extended. Slowly lower the dumbbells back down to shoulder height. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 60
+    },
+    {
+      "animation": "workout_animations/deadlift.json",
+      "name": "Deadlift",
+      "description": "Stand with your feet hip-width apart, holding a barbell in front of your thighs. Bend your knees and lower the barbell towards the ground, keeping your back straight. Push through your heels to return to a standing position. Do 8 reps.",
+      "count": {
+        "males": 8,
+        "females": 6
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 70
+    },
+    {
+      "animation": "workout_animations/lunges.json",
+      "name": "Lunges",
+      "description": "Stand with your feet hip-width apart. Take a big step forward with your right leg, bending both knees to lower your body towards the ground. Push through your right heel to return to the starting position. Repeat on the other side. Do 10 lunges on each leg.",
+      "count": {
+        "males": 10,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 50
+    },
+    {
+      "animation": "workout_animations/bicep-curls.json",
+      "name": "Bicep Curls",
+      "description": "Stand with a dumbbell in each hand, palms facing forward. Keeping your elbows close to your sides, curl the dumbbells up towards your shoulders. Slowly lower the dumbbells back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/tricep-dips.json",
+      "name": "Tricep Dips",
+      "description": "Sit on the edge of a bench with your hands gripping the edge, fingers pointing forward. Walk your feet forward and slide your butt off the bench. Bend your elbows to lower your body towards the ground, then push back up. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/crunches.json",
+      "name": "Crunches",
+      "description": "Lie on your back with your knees bent and feet flat on the ground. Place your hands behind your head or cross them over your chest. Engage your core and lift your upper body off the ground, towards your knees. Slowly lower back down. Do 15 crunches.",
+      "count": {
+        "males": 15,
+        "females": 15
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 20
+    },
+    {
+      "animation": "workout_animations/leg-press.json",
+      "name": "Leg Press",
+      "description": "Sit on a leg press machine with your feet on the footplate hip-width apart. Push the footplate away from you, extending your legs, then slowly bend your knees to return to the starting position. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 60
+    },
+    {
+      "animation": "workout_animations/shoulder-raises.json",
+      "name": "Shoulder Raises",
+      "description": "Stand with a dumbbell in each hand, palms facing your body. Raise your arms straight out to the sides until they are parallel to the ground. Slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/dumbbell-flyes.json",
+      "name": "Dumbbell Flyes",
+      "description": "Lie on a flat bench with a dumbbell in each hand, arms extended above your chest and palms facing each other. Lower the dumbbells out to the sides in a wide arc, then bring them back up above your chest. Do 10 reps.",
+      "count": {
+        "males": 10,
+        "females": 8
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 50
+    },
+    {
+      "animation": "workout_animations/hammer-curls.json",
+      "name": "Hammer Curls",
+      "description": "Stand with a dumbbell in each hand, palms facing your body. Keep your elbows close to your sides and curl the dumbbells up towards your shoulders. Slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/tricep-extensions.json",
+      "name": "Tricep Extensions",
+      "description": "Stand with a dumbbell in your right hand, arm extended above your head. Bend your elbow to lower the dumbbell behind your head, then extend your arm back up. Do 10 reps on each arm.",
+      "count": {
+        "males": 10,
+        "females": 8
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 50
+    },
+    {
+      "animation": "workout_animations/leg-curls.json",
+      "name": "Leg Curls",
+      "description": "Lie face down on a leg curl machine with your heels against the padded lever. Curl your legs up towards your glutes, then slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 60
+    },
+    {
+      "animation": "workout_animations/weighted-hip-thrust.json",
+      "name": "Weighted Hip Thrust",
+      "description": "Sit on the ground with your upper back against a bench, knees bent and feet flat on the floor. Place a barbell across your hips. Drive through your heels to lift your hips off the ground until your body forms a straight line. Lower your hips back down. Do 10 reps.",
+      "count": {
+        "males": 10,
+        "females": 8
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 70
+    },
+    {
+      "animation": "workout_animations/standing-calf-raises.json",
+      "name": "Standing Calf Raises",
+      "description": "Stand on the edge of a step with your heels hanging off and your toes on the step. Rise up onto your tiptoes as high as possible, then lower your heels below the step. Do 15 reps.",
+      "count": {
+        "males": 15,
+        "females": 12
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 30
+    },
+    {
+      "animation": "workout_animations/front-raises.json",
+      "name": "Front Raises",
+      "description": "Stand with a dumbbell in each hand, palms facing your body. Raise your arms straight out in front of you until they are parallel to the ground. Slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/lateral-raises.json",
+      "name": "Lateral Raises",
+      "description": "Stand with a dumbbell in each hand, palms facing your body. Raise your arms out to the sides until they are parallel to the ground. Slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/reverse-flyes.json",
+      "name": "Reverse Flyes",
+      "description": "Bend forward at the hips, keeping your back straight. Hold a dumbbell in each hand with palms facing each other. Raise your arms out to the sides, squeezing your shoulder blades together. Slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/leg-extensions.json",
+      "name": "Leg Extensions",
+      "description": "Sit on a leg extension machine with your ankles against the padded lever. Extend your legs out in front of you, then slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 50
+    },
+    {
+      "animation": "workout_animations/sit-ups.json",
+      "name": "Sit-ups",
+      "description": "Lie on your back with your knees bent and feet flat on the ground. Place your hands behind your head or cross them over your chest. Engage your core and lift your upper body off the ground, towards your knees. Slowly lower back down. Do 15 sit-ups.",
+      "count": {
+        "males": 15,
+        "females": 15
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 20
+    },
+    {
+      "animation": "workout_animations/hip-thrust.json",
+      "name": "Hip Thrust",
+      "description": "Sit on the ground with your upper back against a bench, knees bent and feet flat on the floor. Drive through your heels to lift your hips off the ground until your body forms a straight line. Lower your hips back down. Do 15 reps.",
+      "count": {
+        "males": 15,
+        "females": 12
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 60
+    },
+    {
+      "animation": "workout_animations/standing-calf-raises.json",
+      "name": "Standing Calf Raises",
+      "description": "Stand on the edge of a step with your heels hanging off and your toes on the step. Rise up onto your tiptoes as high as possible, then lower your heels below the step. Do 15 reps.",
+      "count": {
+        "males": 15,
+        "females": 12
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 30
+    },
+    {
+      "animation": "workout_animations/front-raises.json",
+      "name": "Front Raises",
+      "description": "Stand with a dumbbell in each hand, palms facing your body. Raise your arms straight out in front of you until they are parallel to the ground. Slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/lateral-raises.json",
+      "name": "Lateral Raises",
+      "description": "Stand with a dumbbell in each hand, palms facing your body. Raise your arms out to the sides until they are parallel to the ground. Slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/reverse-flyes.json",
+      "name": "Reverse Flyes",
+      "description": "Bend forward at the hips, keeping your back straight. Hold a dumbbell in each hand with palms facing each other. Raise your arms out to the sides, squeezing your shoulder blades together. Slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/leg-extensions.json",
+      "name": "Leg Extensions",
+      "description": "Sit on a leg extension machine with your ankles against the padded lever. Extend your legs out in front of you, then slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 50
+    },
+    {
+      "animation": "workout_animations/sit-ups.json",
+      "name": "Sit-ups",
+      "description": "Lie on your back with your knees bent and feet flat on the ground. Place your hands behind your head or cross them over your chest. Engage your core and lift your upper body off the ground, towards your knees. Slowly lower back down. Do 15 sit-ups.",
+      "count": {
+        "males": 15,
+        "females": 15
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 20
+    },
+    {
+      "animation": "workout_animations/hip-thrust.json",
+      "name": "Hip Thrust",
+      "description": "Sit on the ground with your upper back against a bench, knees bent and feet flat on the floor. Drive through your heels to lift your hips off the ground until your body forms a straight line. Lower your hips back down. Do 15 reps.",
+      "count": {
+        "males": 15,
+        "females": 12
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 60
+    },
+    {
+      "animation": "workout_animations/standing-calf-raises.json",
+      "name": "Standing Calf Raises",
+      "description": "Stand on the edge of a step with your heels hanging off and your toes on the step. Rise up onto your tiptoes as high as possible, then lower your heels below the step. Do 15 reps.",
+      "count": {
+        "males": 15,
+        "females": 12
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 30
+    },
+    {
+      "animation": "workout_animations/front-raises.json",
+      "name": "Front Raises",
+      "description": "Stand with a dumbbell in each hand, palms facing your body. Raise your arms straight out in front of you until they are parallel to the ground. Slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/lateral-raises.json",
+      "name": "Lateral Raises",
+      "description": "Stand with a dumbbell in each hand, palms facing your body. Raise your arms out to the sides until they are parallel to the ground. Slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/reverse-flyes.json",
+      "name": "Reverse Flyes",
+      "description": "Bend forward at the hips, keeping your back straight. Hold a dumbbell in each hand with palms facing each other. Raise your arms out to the sides, squeezing your shoulder blades together. Slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/leg-extensions.json",
+      "name": "Leg Extensions",
+      "description": "Sit on a leg extension machine with your ankles against the padded lever. Extend your legs out in front of you, then slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 50
+    },
+    {
+      "animation": "workout_animations/sit-ups.json",
+      "name": "Sit-ups",
+      "description": "Lie on your back with your knees bent and feet flat on the ground. Place your hands behind your head or cross them over your chest. Engage your core and lift your upper body off the ground, towards your knees. Slowly lower back down. Do 15 sit-ups.",
+      "count": {
+        "males": 15,
+        "females": 15
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 20
+    },
+    {
+      "animation": "workout_animations/hip-thrust.json",
+      "name": "Hip Thrust",
+      "description": "Sit on the ground with your upper back against a bench, knees bent and feet flat on the floor. Drive through your heels to lift your hips off the ground until your body forms a straight line. Lower your hips back down. Do 15 reps.",
+      "count": {
+        "males": 15,
+        "females": 12
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 60
+    },
+    {
+      "animation": "workout_animations/standing-calf-raises.json",
+      "name": "Standing Calf Raises",
+      "description": "Stand on the edge of a step with your heels hanging off and your toes on the step. Rise up onto your tiptoes as high as possible, then lower your heels below the step. Do 15 reps.",
+      "count": {
+        "males": 15,
+        "females": 12
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 30
+    },
+    {
+      "animation": "workout_animations/front-raises.json",
+      "name": "Front Raises",
+      "description": "Stand with a dumbbell in each hand, palms facing your body. Raise your arms straight out in front of you until they are parallel to the ground. Slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/lateral-raises.json",
+      "name": "Lateral Raises",
+      "description": "Stand with a dumbbell in each hand, palms facing your body. Raise your arms out to the sides until they are parallel to the ground. Slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/reverse-flyes.json",
+      "name": "Reverse Flyes",
+      "description": "Bend forward at the hips, keeping your back straight. Hold a dumbbell in each hand with palms facing each other. Raise your arms out to the sides, squeezing your shoulder blades together. Slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/leg-extensions.json",
+      "name": "Leg Extensions",
+      "description": "Sit on a leg extension machine with your ankles against the padded lever. Extend your legs out in front of you, then slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 50
+    },
+    {
+      "animation": "workout_animations/sit-ups.json",
+      "name": "Sit-ups",
+      "description": "Lie on your back with your knees bent and feet flat on the ground. Place your hands behind your head or cross them over your chest. Engage your core and lift your upper body off the ground, towards your knees. Slowly lower back down. Do 15 sit-ups.",
+      "count": {
+        "males": 15,
+        "females": 15
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 20
+    },
+    {
+      "animation": "workout_animations/hip-thrust.json",
+      "name": "Hip Thrust",
+      "description": "Sit on the ground with your upper back against a bench, knees bent and feet flat on the floor. Drive through your heels to lift your hips off the ground until your body forms a straight line. Lower your hips back down. Do 15 reps.",
+      "count": {
+        "males": 15,
+        "females": 12
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 60
+    },
+    {
+      "animation": "workout_animations/standing-calf-raises.json",
+      "name": "Standing Calf Raises",
+      "description": "Stand on the edge of a step with your heels hanging off and your toes on the step. Rise up onto your tiptoes as high as possible, then lower your heels below the step. Do 15 reps.",
+      "count": {
+        "males": 15,
+        "females": 12
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 30
+    },
+    {
+      "animation": "workout_animations/front-raises.json",
+      "name": "Front Raises",
+      "description": "Stand with a dumbbell in each hand, palms facing your body. Raise your arms straight out in front of you until they are parallel to the ground. Slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/lateral-raises.json",
+      "name": "Lateral Raises",
+      "description": "Stand with a dumbbell in each hand, palms facing your body. Raise your arms out to the sides until they are parallel to the ground. Slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/reverse-flyes.json",
+      "name": "Reverse Flyes",
+      "description": "Bend forward at the hips, keeping your back straight. Hold a dumbbell in each hand with palms facing each other. Raise your arms out to the sides, squeezing your shoulder blades together. Slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/leg-extensions.json",
+      "name": "Leg Extensions",
+      "description": "Sit on a leg extension machine with your ankles against the padded lever. Extend your legs out in front of you, then slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 50
+    },
+    {
+      "animation": "workout_animations/sit-ups.json",
+      "name": "Sit-ups",
+      "description": "Lie on your back with your knees bent and feet flat on the ground. Place your hands behind your head or cross them over your chest. Engage your core and lift your upper body off the ground, towards your knees. Slowly lower back down. Do 15 sit-ups.",
+      "count": {
+        "males": 15,
+        "females": 15
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 20
+    },
+    {
+      "animation": "workout_animations/hip-thrust.json",
+      "name": "Hip Thrust",
+      "description": "Sit on the ground with your upper back against a bench, knees bent and feet flat on the floor. Drive through your heels to lift your hips off the ground until your body forms a straight line. Lower your hips back down. Do 15 reps.",
+      "count": {
+        "males": 15,
+        "females": 12
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 60
+    },
+    {
+      "animation": "workout_animations/standing-calf-raises.json",
+      "name": "Standing Calf Raises",
+      "description": "Stand on the edge of a step with your heels hanging off and your toes on the step. Rise up onto your tiptoes as high as possible, then lower your heels below the step. Do 15 reps.",
+      "count": {
+        "males": 15,
+        "females": 12
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 30
+    },
+    {
+      "animation": "workout_animations/front-raises.json",
+      "name": "Front Raises",
+      "description": "Stand with a dumbbell in each hand, palms facing your body. Raise your arms straight out in front of you until they are parallel to the ground. Slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/lateral-raises.json",
+      "name": "Lateral Raises",
+      "description": "Stand with a dumbbell in each hand, palms facing your body. Raise your arms out to the sides until they are parallel to the ground. Slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/reverse-flyes.json",
+      "name": "Reverse Flyes",
+      "description": "Bend forward at the hips, keeping your back straight. Hold a dumbbell in each hand with palms facing each other. Raise your arms out to the sides, squeezing your shoulder blades together. Slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 40
+    },
+    {
+      "animation": "workout_animations/leg-extensions.json",
+      "name": "Leg Extensions",
+      "description": "Sit on a leg extension machine with your ankles against the padded lever. Extend your legs out in front of you, then slowly lower them back down. Do 12 reps.",
+      "count": {
+        "males": 12,
+        "females": 10
+      },
+      "duration": {
+        "males": null,
+        "females": null
+      },
+      "calories_burnt": 50
+    }
+  ]
+}
