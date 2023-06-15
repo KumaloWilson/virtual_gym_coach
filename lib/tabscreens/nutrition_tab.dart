@@ -82,7 +82,7 @@ class _NutritionTabState extends State<NutritionTab> {
                   return Padding(
                     padding: const EdgeInsets.all(20.0),
                     child: Container(
-                      height: MediaQuery.of(context).size.height * 0.1,
+                      height: MediaQuery.of(context).size.height * 0.13,
                       decoration: BoxDecoration(
                         image: DecorationImage(
                           image: AssetImage(randomImage),
@@ -105,11 +105,13 @@ class _NutritionTabState extends State<NutritionTab> {
                           ),
                         ],
                       ),
-                      child: ListTile(
-                        title: Text(data.name, style: TextStyle(color: textColor, fontWeight: FontWeight.bold)),
-                        subtitle: Text('Calories: ${data.calories}', style: TextStyle(color: textColor)),
-                        trailing: Text('Protein: ${data.protein}g', style: TextStyle(color: textColor)),
-                        onTap: () => _onMealTap(data),
+                      child: Center(
+                        child: ListTile(
+                          title: Text(data.name, style: TextStyle( fontSize: MediaQuery.of(context).size.width * 0.04 ,color: textColor, fontWeight: FontWeight.bold)),
+                          subtitle: Text('Calories: ${data.calories}', style: TextStyle(color: textColor)),
+                          trailing: Text('Protein: ${data.protein}g', style: TextStyle(color: textColor)),
+                          onTap: () => _onMealTap(data),
+                        ),
                       ),
                     ),
                   );

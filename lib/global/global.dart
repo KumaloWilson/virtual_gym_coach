@@ -5,6 +5,7 @@ import '../models/user_model.dart';
 
 enum UserGoal{getFit, loseWeight, getFlexible, bodyBuilding}
 enum UserGender{males, females}
+enum TtsState { playing, stopped, paused, continued }
 
 String? asUser;
 bool isAssistantActive = false;

@@ -1,5 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
+import 'dart:io';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:lottie/lottie.dart';
@@ -18,7 +20,30 @@ class GymCoachApp extends StatefulWidget {
 }
 class _GymCoachAppState extends State<GymCoachApp> {
   List<Exercise> exercises = [];
+
+
   late FlutterTts flutterTts;
+  String? language;
+  String? engine;
+  double volume = 0.5;
+  double pitch = 1.0;
+  double rate = 0.5;
+  bool isCurrentLanguageInstalled = false;
+
+  String? _newVoiceText;
+
+  TtsState ttsState = TtsState.stopped;
+
+  get isPlaying => ttsState == TtsState.playing;
+  get isStopped => ttsState == TtsState.stopped;
+  get isPaused => ttsState == TtsState.paused;
+  get isContinued => ttsState == TtsState.continued;
+
+  bool get isIOS => !kIsWeb && Platform.isIOS;
+  bool get isAndroid => !kIsWeb && Platform.isAndroid;
+  bool get isWindows => !kIsWeb && Platform.isWindows;
+
+
   late Timer timer;
   int currentExerciseIndex = 0;
   int remainingTime = 0;
@@ -28,15 +53,119 @@ class _GymCoachAppState extends State<GymCoachApp> {
 
   int currentCalories = 0;
 
+
+  initTts() {
+    flutterTts = FlutterTts();
+
+    _setAwaitOptions();
+
+    if (isAndroid) {
+      _getDefaultEngine();
+      _getDefaultVoice();
+    }
+
+    flutterTts.setStartHandler(() {
+      setState(() {
+        print("Playing");
+        ttsState = TtsState.playing;
+      });
+    });
+
+    if (isAndroid) {
+      flutterTts.setInitHandler(() {
+        setState(() {
+          print("TTS Initialized");
+        });
+      });
+    }
+
+    flutterTts.setCompletionHandler(() {
+      setState(() {
+        print("Complete");
+        ttsState = TtsState.stopped;
+      });
+    });
+
+    flutterTts.setCancelHandler(() {
+      setState(() {
+        print("Cancel");
+        ttsState = TtsState.stopped;
+      });
+    });
+
+    flutterTts.setPauseHandler(() {
+      setState(() {
+        print("Paused");
+        ttsState = TtsState.paused;
+      });
+    });
+
+    flutterTts.setContinueHandler(() {
+      setState(() {
+        print("Continued");
+        ttsState = TtsState.continued;
+      });
+    });
+
+    flutterTts.setErrorHandler((msg) {
+      setState(() {
+        print("error: $msg");
+        ttsState = TtsState.stopped;
+      });
+    });
+  }
+
+  Future _getDefaultEngine() async {
+    var engine = await flutterTts.getDefaultEngine;
+    if (engine != null) {
+      print(engine);
+    }
+  }
+
+  Future _getDefaultVoice() async {
+    var voice = await flutterTts.getDefaultVoice;
+    if (voice != null) {
+      print(voice);
+    }
+  }
+
+  Future _speak() async {
+    await flutterTts.setVolume(volume);
+    await flutterTts.setSpeechRate(rate);
+    await flutterTts.setPitch(pitch);
+
+    if (_newVoiceText != null) {
+      if (_newVoiceText!.isNotEmpty) {
+        await flutterTts.speak(_newVoiceText!);
+      }
+    }
+  }
+
+  Future _setAwaitOptions() async {
+    await flutterTts.awaitSpeakCompletion(true);
+  }
+
+  Future _stop() async {
+    var result = await flutterTts.stop();
+    if (result == 1) setState(() => ttsState = TtsState.stopped);
+  }
+
+  Future _pause() async {
+    var result = await flutterTts.pause();
+    if (result == 1) setState(() => ttsState = TtsState.paused);
+  }
+
+
   @override
   void initState() {
     super.initState();
-    flutterTts = FlutterTts();
+    initTts();
 
     // Load exercises and speak the description instantly
     loadExercises();
     speakExerciseDescription();
   }
+
 
   void _saveData() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
@@ -51,6 +180,12 @@ class _GymCoachAppState extends State<GymCoachApp> {
       currentCalories = 0;
       _saveData();
     });
+    _newVoiceText = 'Congratulations you have completed your workout session for the day. Please come again tomorrow';
+
+    _speak();
+
+    _stop();
+    flutterTts.stop();
     showCongratulatoryDialog();
   }
 
@@ -155,8 +290,12 @@ class _GymCoachAppState extends State<GymCoachApp> {
 
   void speakExerciseDescription() async {
     if (exercises.isNotEmpty) {
-      Exercise exercise = exercises[currentExerciseIndex];
-      await flutterTts.speak(exercise.description);
+      setState(() {
+        Exercise exercise = exercises[currentExerciseIndex];
+        _newVoiceText = exercise.description.toString();
+
+        _speak();
+      });
     }
   }
 
@@ -224,8 +363,6 @@ class _GymCoachAppState extends State<GymCoachApp> {
     }
   }
 
-
-
   void navigateToHomeScreen() {
     Navigator.push(
       context,
@@ -250,6 +387,7 @@ class _GymCoachAppState extends State<GymCoachApp> {
   @override
   void dispose() {
     timer.cancel();
+    _stop();
     flutterTts.stop();
     super.dispose();
   }
@@ -473,7 +611,7 @@ class _GymCoachAppState extends State<GymCoachApp> {
                     onTap: startExercise,
                     child: Container(
                       height: 45,
-                      width: 200,
+                      width: 100,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
                         border: Border.all(
@@ -497,7 +635,7 @@ class _GymCoachAppState extends State<GymCoachApp> {
                     onTap: startExercise,
                     child: Container(
                       height: 45,
-                      width: 200,
+                      width: 100,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
                         border: Border.all(
