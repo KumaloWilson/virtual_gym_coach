@@ -5,6 +5,7 @@ import 'package:pedometer/pedometer.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:connectivity/connectivity.dart';
 import 'package:assets_audio_player/assets_audio_player.dart';
+import 'package:permission_handler/permission_handler.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../global/global.dart';
 
@@ -48,6 +49,23 @@ class _JogScreenState extends State<JogScreen> {
       totalTravelledDistance = totalTravelledDistance + (_distance / 1000);
       signPrefs.setDouble('totalTravelledDistance', totalTravelledDistance);
     });
+  }
+
+  void permissionRequest() async{
+    // Check location permission
+    if (!(await Permission.locationAlways.isGranted)) {
+      await Permission.locationAlways.request();
+    }
+
+    // Check sensors permission
+    if (!(await Permission.sensors.isGranted)) {
+      await Permission.sensors.request();
+    }
+
+    // Check physical activity permission
+    if (!(await Permission.activityRecognition.isGranted)) {
+      await Permission.activityRecognition.request();
+    }
   }
 
   void addTotalBurntCalories() async{
@@ -157,8 +175,9 @@ class _JogScreenState extends State<JogScreen> {
   @override
   void initState() {
     super.initState();
-    initPlatformState();
+    permissionRequest();
     checkConnectivity(); // Check initial connectivity status
+    initPlatformState();
 
 
 // Initialize audio player
