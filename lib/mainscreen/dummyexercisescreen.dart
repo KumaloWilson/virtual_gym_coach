@@ -335,7 +335,7 @@ class _GymCoachAppState extends State<GymCoachApp> {
           remainingTime--;
         });
 
-        if (remainingTime <= 10) {
+        if (remainingTime < 11) {
           flutterTts.speak(remainingTime.toString());
         }
       } else {
@@ -358,7 +358,7 @@ class _GymCoachAppState extends State<GymCoachApp> {
       }
     });
 
-    if (currentExerciseIndex >= 2) {
+    if (currentExerciseIndex > 9) {
       _finishWorkout();
     }
   }

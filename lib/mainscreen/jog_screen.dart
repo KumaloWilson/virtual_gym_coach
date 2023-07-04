@@ -476,7 +476,7 @@ class _JogScreenState extends State<JogScreen> {
                             onPressed: () {
                               setState(() {
                                 if (isMuted) {
-                                  _audioPlayer.setVolume(1.0); // Unmute the audio
+                                  _audioPlayer.setVolume(1.0); // UnMute the audio
                                 } else {
                                   _audioPlayer.setVolume(0.0); // Mute the audio
                                 }
